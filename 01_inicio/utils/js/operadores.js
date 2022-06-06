@@ -25,3 +25,21 @@ console.log(`la division de los numeros es ${numero1 / numero2}`);
 console.log(`la modulo de los numeros es ${numero1 % numero2}`);
 
 console.log(`EL tipo del resto es ${typeof (numero1 % numero2)}`);
+
+
+// operadores de comparacion
+
+numero1 = 11;
+numero2 = 10;
+let mayorQue = numero1 > numero2;
+console.log(mayorQue);
+let mayorIgual = numero1 >= numero2;
+console.log(mayorIgual);
+let menorQue = numero1 < numero2;
+console.log(menorQue);
+let menorIgual = numero1 <= numero2;
+console.log(menorIgual);
+let diferente = numero1 != numero2;
+console.log(diferente);
+let igual = numero1 == numero2;
+console.log(igual);
