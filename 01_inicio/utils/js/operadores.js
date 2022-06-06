@@ -51,3 +51,11 @@ numero1 = 4;
 numero2 = '4';
 let igual = numero1 == numero2;
 console.log(igual);
+
+/* alert(`Bienvenido ${nombre}`); */
+
+/* let confirmacion = confirm('¿Seguro que quieres continuar?');
+console.log('Respuesta al confirm ' + confirmacion); */
+
+let mensaje = prompt('Introduce un dato a trabajar', 'parametro por defecto')
+console.log(mensaje);
