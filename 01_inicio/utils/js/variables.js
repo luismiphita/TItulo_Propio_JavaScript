@@ -19,3 +19,11 @@ console.log(typeof carnet);
 console.log(typeof edad);
 console.log(typeof fecha);
 
+console.log(isNaN(nombre)); 
+/* para negar algo con la ! delante */
+console.log(!isNaN(edad)); 
+
+/* salida por consola */
+console.log('Mi nombre es ' + nombre + ' ' + apellido + ' y tengo ' + edad + ' años');
+
+console.log(`Mi nombre es ${nombre} ${apellido} y tengo ${edad} años`);
