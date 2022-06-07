@@ -45,4 +45,21 @@ switch (nota) {
 } */
 
 
+let n1 = prompt('Dime un numero', 'X');
+let n2 = prompt('Dime otro numero', 'Y');
+let operacion = prompt('Dime una operacion', 'operacion');
 
+let suma;
+let resta;
+let multiplicacion;
+let division;
+
+if (operacion == 'suma') {
+    alert('El resultado de la suma es: ' + (Number(n1) + Number(n2)));
+} else if(operacion == 'resta'){
+    alert('El resultado de la resta es: ' + (n1 - n2));
+}else if(operacion == 'multiplicacion'){
+    alert('El resultado de la multiplicacion es: ' + (n1 * n2));
+}else{
+    alert('El resultado de la division es: ' + (n1 / n2));
+}
