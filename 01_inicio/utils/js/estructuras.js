@@ -45,7 +45,7 @@ switch (nota) {
 } */
 
 
-let n1 = prompt('Dime un numero', 'X');
+/* let n1 = prompt('Dime un numero', 'X');
 let n2 = prompt('Dime otro numero', 'Y');
 let operacion = prompt('Dime una operacion', 'operacion');
 
@@ -62,4 +62,46 @@ if (operacion == 'suma') {
     alert('El resultado de la multiplicacion es: ' + (n1 * n2));
 }else{
     alert('El resultado de la division es: ' + (n1 / n2));
+} */
+
+let numero1 = prompt("Introduce operador uno");
+let numero2 = prompt("Introduce operador dos");
+
+if (
+  !isNaN(Number(numero1)) &&
+  !isNaN(Number(numero2)) &&
+  numero1 > 0 &&
+  numero2 > 0
+) {
+  let operacion = prompt("Introduce la operacion a realizar");
+  let resultado;
+  switch (operacion) {
+    case "suma":
+      resultado = numero1 + numero2;
+      break;
+    case "resta":
+      resultado = numero1 - numero2;
+
+      break;
+    case "multiplicacion":
+      resultado = numero1 * numero2;
+
+      break;
+    case "division":
+      resultado = numero1 / numero2;
+
+      break;
+
+    default:
+      console.log("operacion desconocida");
+      break;
+  }
+  resultado > 0
+    ? alert(`La ${operacion} entre ${numero1} y ${numero2} es ${resultado}`)
+    : alert("resultado negativo");
+} else {
+  console.log("Alguno de los datos son incorrectos");
 }
+
+//let numeroTraducido = (Number)numero
+isNaN(Number(numero1)) ? console.log("es un NAN") : console.log("es un numero");
