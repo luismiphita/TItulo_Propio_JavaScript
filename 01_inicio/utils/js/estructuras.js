@@ -64,7 +64,7 @@ if (operacion == 'suma') {
     alert('El resultado de la division es: ' + (n1 / n2));
 } */
 
-let numero1 = prompt("Introduce operador uno");
+/* let numero1 = prompt("Introduce operador uno");
 let numero2 = prompt("Introduce operador dos");
 
 if (
@@ -104,4 +104,4 @@ if (
 }
 
 //let numeroTraducido = (Number)numero
-isNaN(Number(numero1)) ? console.log("es un NAN") : console.log("es un numero");
+isNaN(Number(numero1)) ? console.log("es un NAN") : console.log("es un numero"); */S
